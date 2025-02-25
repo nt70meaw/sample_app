@@ -32,24 +32,6 @@ header {
   border-top: solid 5px #000000;
 }
 
-.flash-message {
-  border-radius: 5px;
-  padding: 16px 24px;
-  margin: 16px 0px;
-}
- 
-.flash-message.notice {
-  background-color: #bcdfff;
-  color: #0067C0;
-  border: solid 1px #0067C0;
-}
- 
-.flash-message.alert {
-  background-color: #ffd4d1;
-  color: #930403;
-  border: solid 1px #930403;
-}
-
 header .headline {
   font-size: 32px;
 }
@@ -65,6 +47,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 0 auto;
+  position: relative;
 }
 
 .nav-list-item {
@@ -87,7 +70,6 @@ main {
   width: 200px;
   height: 250px;
   margin: 10px;
-  position: relative;
 }
 
 .list-comment {
